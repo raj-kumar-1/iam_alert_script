@@ -45,6 +45,6 @@ This script will create a csv file that contains all the data from the alert CSV
 ### Run
 
 ```
-python runner.py
+python IamRunner.py
 
 ```
