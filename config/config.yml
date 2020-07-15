@@ -1,0 +1,9 @@
+prisma_cloud:
+  username:
+  password:
+  customer_name: ''
+  api_base: api.prismacloud.io
+  timerange_unit: hour
+  timerange_amount: 5
+  filter_resource_type: [{"operator":"=","name":"resource.type","value":"AWS IAM User Managed Policy"},
+                         {"operator":"=","name":"resource.type","value":"AWS IAM User Inline Policy"}]
