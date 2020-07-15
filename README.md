@@ -1,7 +1,6 @@
 # Prisma Cloud alert csv export with tags and account group names 
 
 Version: *1.0*
-Author: *Eddie Beuerlein*
 
 ### Summary
 This script will create a csv file that contains all the data from the alert CSV export in the UI in addition to tag and account groups per alert id.
@@ -28,7 +27,7 @@ This script will create a csv file that contains all the data from the alert CSV
 
 ### Configuration
 
-1. Navigate to *alert_tags_acctgrp/config/configs.yml*
+1. Navigate to *iam_alert_script/config/configs.yml*
 
 2. Fill out your Prisma Cloud access key, secret, and customer name - if you are the only customer in your account then leave this blank.
 
